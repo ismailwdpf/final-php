@@ -8,8 +8,8 @@ if(isset($_POST['submit'])){
 		}
 	else echo "Username done.<br>";
 	$ppattern = "/\S+@\S+\.\S+/";
-	if(preg_match($ppattern , $email)){echo "valid email<br>";}
-	else {echo "invalid email<br>";}
+	if(preg_match($ppattern , $email)){echo "Your email is valid<br>";}
+	else {echo "Your email is invalid<br>";}
 	
 	}
 	
